@@ -1,0 +1,193 @@
+/**************reset************/
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+body {
+    font-family: "Exo", sans-serif;
+    height: 100%;
+    width: 100%;
+    color: #000;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a,
+span {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    font-family: "Exo", sans-serif;
+    cursor: pointer;
+}
+
+::selection {
+    background-color: rgb(255, 209, 91);
+    color: black;
+}
+
+/**************end reset************/
+/**************container************/
+
+.container {
+    width: 80%;
+    padding: 0 16px;
+    margin: auto;
+}
+
+@media screen and (min-width: 200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        width: 570px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 760px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
+
+/**************end container************/
+
+
+
+/**************important classes************/
+.black-span {
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 15px;
+    box-shadow: 3px 3px black;
+}
+
+.red-span {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #FB2C36;
+    color: white;
+    padding: 2px 10px;
+    border: 2px solid black;
+    transform: rotate(12deg);
+}
+
+.blue-span {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #2B7FFF;
+    color: white;
+    padding: 2px 10px;
+    border: 2px solid black;
+    transform: rotate(-12deg);
+}
+
+.purp-span {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #AD46FF;
+    color: white;
+    padding: 2px 10px;
+    border: 2px solid black;
+    transform: rotate(50deg);
+}
+
+.red-content-span {
+    color: red;
+}
+
+.yellow-span {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #FFDF20;
+    padding: 2px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.green-span {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #7BF1A8;
+    padding: 2px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.pink-span {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #FDA5D5;
+    padding: 2px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.black-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: black;
+    border: 4px solid black;
+    padding: 10px 30px;
+    box-shadow: 5px 5px black;
+    transition: all 0.2s;
+}
+.white-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    background: white;
+    border: 4px solid black;
+    padding: 10px 30px;
+    box-shadow: 5px 5px black;
+    transition: all 0.2s;
+}
+.black-btn:hover ,.white-btn:hover {
+    transform: translate(5px,5px);
+    box-shadow: 0 0 black;
+}
+
+
+/**************end important classes************/
